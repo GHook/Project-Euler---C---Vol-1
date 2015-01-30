@@ -34,11 +34,14 @@ void largest_prime()
 	unsigned long int largest_prime = 1;
 	cout << "Enter an integer less than 4 billion" << endl;
 	cin >> input;
-	for (unsigned long int i = 2; i <= (input + 1) / 2; i++)
+	for (unsigned long int i = (input + 1) / 2; i > 1; i--)
 	{
 		if (input % i == 0)
 			if (is_prime(i))
+			{
 				largest_prime = i;
+				break;
+			}
 	}
 	cout << "The largest factor of " << input << " that is also a prime number is " << largest_prime << endl;
 }

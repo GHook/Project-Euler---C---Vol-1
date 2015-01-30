@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="even_fibs.h" />
+    <ClInclude Include="largest_pal_prod.h" />
     <ClInclude Include="largest_prime.h" />
     <ClInclude Include="mult_3_5.h" />
   </ItemGroup>
