@@ -32,5 +32,8 @@
     <ClInclude Include="largest_pal_prod.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="largest_prod_series.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

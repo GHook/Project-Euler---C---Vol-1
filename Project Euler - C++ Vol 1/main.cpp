@@ -8,6 +8,7 @@
 #include "even_fibs.h"
 #include "largest_prime.h"
 #include "largest_pal_prod.h"
+#include "largest_prod_series.h"
 
 using namespace std;
 
@@ -25,6 +26,7 @@ int main()
 		cout << "b - sum of even Fibonacci numbers less than 4 million" << endl;
 		cout << "c - largest factor of given number that is prime" << endl;
 		cout << "d - largest product of 2 3 digit integers that is a palindrome" << endl;
+		cout << "e - largest product of 6 consecutive digits in a 1000 digit number" << endl;
 		cin >> select;
 		switch (select)
 		{
@@ -35,6 +37,8 @@ int main()
 		case 'c': largest_prime();
 			break;
 		case 'd': largest_pal_prod();
+			break;
+		case 'e': largest_prod_series();
 			break;
 		}
 	}
