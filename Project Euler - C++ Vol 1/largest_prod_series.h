@@ -20,7 +20,7 @@ void largest_prod_series()
 	char digit;
 	int digits[1000];
 	
-	ifstream dig_file("digits.txt");
+	ifstream dig_file("largest_prod_series_digits.txt");
 	int i = 0;
 	while (dig_file.good() && i < 1000)
 	{
