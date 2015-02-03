@@ -46,7 +46,7 @@ int main()
 			break;
 		case 'f': spec_pyth_trip();
 			break;
-		case 'g': spec_pyth_trip();
+		case 'g': largest_prod_grid();
 			break;
 		}
 	}

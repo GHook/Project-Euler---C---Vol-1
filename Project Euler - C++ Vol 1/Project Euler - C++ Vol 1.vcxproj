@@ -87,6 +87,10 @@
     <ClInclude Include="mult_3_5.h" />
     <ClInclude Include="spec_pyth_trip.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="largest_prod_grid_input.txt" />
+    <Text Include="largest_prod_series_digits.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,11 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="even_fibs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -41,5 +36,18 @@
     <ClInclude Include="largest_prod_grid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="largest_prod_grid_input.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="largest_prod_series_digits.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
