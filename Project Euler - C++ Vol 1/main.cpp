@@ -10,6 +10,7 @@
 #include "largest_pal_prod.h"
 #include "largest_prod_series.h"
 #include "spec_pyth_trip.h"
+#include "largest_prod_grid.h"
 
 using namespace std;
 
@@ -29,6 +30,7 @@ int main()
 		cout << "d - largest product of 2 3 digit integers that is a palindrome" << endl;
 		cout << "e - largest product of 6 consecutive digits in a 1000 digit number" << endl;
 		cout << "f - Pythagorean triplet that sums to 1000" << endl;
+		cout << "g - largest product of 4 consecutive numbers in a grid" << endl;
 		cin >> select;
 		switch (select)
 		{
@@ -43,6 +45,8 @@ int main()
 		case 'e': largest_prod_series();
 			break;
 		case 'f': spec_pyth_trip();
+			break;
+		case 'g': spec_pyth_trip();
 			break;
 		}
 	}
