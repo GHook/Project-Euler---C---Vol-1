@@ -4,7 +4,7 @@
 * Problem 8 - Find the largest product of 6 consecutive digits in a 1000
 * digit number. Number will be read in from a text file.
 * This has been modified from the original problem of finding the largest
-* product of 13 conswcutive digits to save processing time.
+* product of 13 consecutive digits to save processing time.
 ******************************************************************************/
 
 #include <iostream>

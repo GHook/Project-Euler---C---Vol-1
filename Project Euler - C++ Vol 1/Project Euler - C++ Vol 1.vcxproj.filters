@@ -35,5 +35,8 @@
     <ClInclude Include="largest_prod_series.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="spec_pyth_trip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
