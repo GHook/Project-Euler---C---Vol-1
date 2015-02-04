@@ -41,7 +41,7 @@ void largest_prod_grid()
 
 	for (int i = 0; i < 400; i++)
 	{
-		if (i % 10 < 7)
+		if (i % 20 < 17)
 		{
 			prod = numbers[i] * numbers[i + 1] * numbers[i + 2] * numbers[i + 3];
 			if (prod > largest_prod)
@@ -65,7 +65,7 @@ void largest_prod_grid()
 				d = numbers[i + 60];
 			}
 		}
-		if (i % 10 < 7 && i < 140)
+		if (i % 20 < 17 && i < 140)
 		{
 			prod = numbers[i] * numbers[i + 21] * numbers[i + 42] * numbers[i + 63];
 			if (prod > largest_prod)
@@ -75,6 +75,18 @@ void largest_prod_grid()
 				b = numbers[i + 21];
 				c = numbers[i + 42];
 				d = numbers[i + 63];
+			}
+		}
+		if (i % 20 < 17 && i > 59)
+		{
+			prod = numbers[i] * numbers[i - 19] * numbers[i - 38] * numbers[i - 57];
+			if (prod > largest_prod)
+			{
+				largest_prod = prod;
+				a = numbers[i];
+				b = numbers[i - 19];
+				c = numbers[i - 38];
+				d = numbers[i - 57];
 			}
 		}
 	}

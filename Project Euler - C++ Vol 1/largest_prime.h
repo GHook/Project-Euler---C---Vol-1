@@ -10,7 +10,7 @@
 
 using namespace std;
 
-bool is_prime(unsigned long int i)
+bool is_prime(unsigned long long int i)
 {
 	if (i <= 3)
 		return i > 1;
@@ -30,11 +30,12 @@ bool is_prime(unsigned long int i)
 
 void largest_prime()
 {
-	unsigned long int input;
-	unsigned long int largest_prime = 1;
+	unsigned long long int input;
+	unsigned long long int largest_prime = 1;
+	bool largest_prime_found = false;
 	cout << "Enter an integer less than 4 billion" << endl;
 	cin >> input;
-	for (unsigned long int i = (input + 1) / 2; i > 1; i--)
+	for (unsigned long long int i = (input + 1) / 2; i > 1; i--)
 	{
 		if (input % i == 0)
 			if (is_prime(i))
@@ -42,6 +43,8 @@ void largest_prime()
 				largest_prime = i;
 				break;
 			}
+		if (largest_prime_found)
+			break;
 	}
 	cout << "The largest factor of " << input << " that is also a prime number is " << largest_prime << endl;
 }

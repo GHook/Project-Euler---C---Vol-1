@@ -36,6 +36,9 @@
     <ClInclude Include="largest_prod_grid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lattice_paths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

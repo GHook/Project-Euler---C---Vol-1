@@ -41,4 +41,5 @@ void spec_pyth_trip()
 	}
 	cout << "The special Pythagorean triplet that sums to 1000 is " << a << ", " << b << ", and " << c << "." << endl;
 	cout << a << "^2 + " << b << "^2 = " << c << "^2" << endl;
+	cout << "a x b x c = " << a * b * c << endl;
 }

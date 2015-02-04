@@ -84,6 +84,7 @@
     <ClInclude Include="largest_prime.h" />
     <ClInclude Include="largest_prod_grid.h" />
     <ClInclude Include="largest_prod_series.h" />
+    <ClInclude Include="lattice_paths.h" />
     <ClInclude Include="mult_3_5.h" />
     <ClInclude Include="spec_pyth_trip.h" />
   </ItemGroup>

@@ -17,8 +17,8 @@ void even_fibs()
 	int c = 3;
 	while (c < 4000000)
 	{
-		if (a % 2 == 0)
-			sum += a;
+		//if (a % 2 == 0)
+			//sum += a;
 		if (b % 2 == 0)
 			sum += b;
 		c = a + b;

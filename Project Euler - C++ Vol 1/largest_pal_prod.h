@@ -28,7 +28,7 @@ bool is_pal(unsigned long int n)
 
 void largest_pal_prod()
 {
-	unsigned long int largest_pal, a, b;
+	unsigned long int a, b, largest_pal = 0;
 	bool pal_found = false;
 	for (unsigned long int i = 999; i > 100; i--)
 	{
@@ -36,15 +36,13 @@ void largest_pal_prod()
 		{
 			if (is_pal(i * j))
 			{
-				largest_pal = i * j;
-				a = i;
-				b = j;
-				cout << "pal found: " << i * j << endl;
-				pal_found = true;
-				break;
+				if (i * j > largest_pal)
+				{
+					largest_pal = i * j;
+					a = i;
+					b = j;
+				}
 			}
-			if (pal_found)
-				break;
 		}
 	}
 	cout << "The largest palindromic product of 2 3-digit numbers is: " << largest_pal << "(" << a << "*" << b << ")" << endl;

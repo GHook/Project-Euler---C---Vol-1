@@ -11,6 +11,7 @@
 #include "largest_prod_series.h"
 #include "spec_pyth_trip.h"
 #include "largest_prod_grid.h"
+#include "lattice_paths.h"
 
 using namespace std;
 
@@ -31,6 +32,7 @@ int main()
 		cout << "e - largest product of 6 consecutive digits in a 1000 digit number" << endl;
 		cout << "f - Pythagorean triplet that sums to 1000" << endl;
 		cout << "g - largest product of 4 consecutive numbers in a grid" << endl;
+		cout << "h - number of lattice paths in an w x h grid" << endl;
 		cin >> select;
 		switch (select)
 		{
@@ -47,6 +49,8 @@ int main()
 		case 'f': spec_pyth_trip();
 			break;
 		case 'g': largest_prod_grid();
+			break;
+		case 'h': lattice_paths();
 			break;
 		}
 	}
